@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Assignments Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    * {box-sizing: border-box}
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #61b375;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 33.33%; /* Three links of equal widths */
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #282828;
+}
+
+.navbar a.active {
+  background-color: #61b375;
+}
+
+/* Main area */
+.main {   
+  flex: 100%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Isabella's Website</h1>
+  <p>CS 3270</p>
+</div>
+
+<div class="navbar">
+    <a href="index.html">Home</a> 
+    <a href="assignments.html">Assignments</a> 
+    <a class="active" href="#">Info</a>
+</div>
+
+<div class="row">
+    <div class="main">
+        <h2>3 Fun Facts About Me</h2>
+        <p>1. I hiked 160 miles last year and visited 20 Minnesota State Parks</p>
+        <p>2. I have a bunny named Athena</p>
+        <p>3. The largest art project I ever completed was a 4 foot by 8 foot painting of the hogwarts castle</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2>Contact</h2>
+        <h4>Email: gc2744rp@bemidjistate.edu</h4>
+
+    </div>
+</div>
+<div class="footer">
+    <h2></h2>
+</div>
+
+</body>
+</html>
